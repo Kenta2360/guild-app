@@ -1,0 +1,33 @@
+# Laravel の環境設定ファイル
+.env
+.env.*
+
+# Composer の依存関係
+/vendor
+
+# Node.js の依存関係
+/node_modules
+
+# Laravel のキャッシュ・ログ・セッションファイル
+/storage
+/storage/*
+!storage/.gitignore
+
+# キャッシュ
+/bootstrap/cache
+/public/storage
+
+# IDE（エディタ）設定ファイル
+.vscode/
+.idea/
+
+# バックアップファイルや OS の隠しファイル
+.DS_Store
+Thumbs.db
+
+# テストカバレッジ
+/coverage
+
+# Laravel の一時ファイル
+*.log
+*.sqlite
