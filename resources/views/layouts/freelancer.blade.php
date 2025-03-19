@@ -55,7 +55,7 @@
             @yield('content')
         </main>
 
-        @if (!request()->is('freelancer/messages/*'))
+        @if (!request()->is('freelancer/messages/*') || !request()->is('email/verify'))
             <footer>
                 <nav>
                     <ul>
