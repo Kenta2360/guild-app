@@ -141,3 +141,6 @@ PAYPAL_CURRENCY=USD
 ## 🔗 リンク
 [GitHub Repository](https://github.com/Kenta2360/guild-app)
 
+## URL
+https://guild-main-gydobu.laravel.cloud/
+
